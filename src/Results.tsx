@@ -1,8 +1,10 @@
 import data from "../api-response.json";
+import SeaUrchin from "./assets/C-EARCH.png";
 
 function Results() {
   return (
     <>
+      <img src={SeaUrchin} alt="Sea urchin" />
       <h2>Results</h2>
       <ul className="" style={{ listStyle: "none" }}>
         {data.hits.hits[3].map((user, i) => (
