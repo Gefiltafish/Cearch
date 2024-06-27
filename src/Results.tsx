@@ -3,7 +3,7 @@ import data from "../api-response.json";
 function Results() {
   return (
     <>
-      <h1>Results</h1>
+      <h2>Results</h2>
       <ul className="" style={{ listStyle: "none" }}>
         {data.hits.hits[3].map((user, i) => (
           <li>

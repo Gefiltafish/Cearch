@@ -15,7 +15,11 @@ export const JobSearch = () => {
     }, 1500);
   };
   const handleGoPress = () => {
-    navigate("/results");
+    setIsLoading(true);
+    setTimeout(() => {
+      navigate("/results");
+      setIsLoading(false);
+    }, 1000);
   };
   return (
     <div>
@@ -31,7 +35,7 @@ export const JobSearch = () => {
           </div>
         </form>
       </div>
-      {isLoading && <span>Loading...</span>}
+
       {showResults && (
         <div style={{ height: "24rem", width: "36rem" }}>
           <ul style={{ listStyle: "none" }}>
@@ -77,6 +81,7 @@ export const JobSearch = () => {
           </button>
         </div>
       )}
+      {isLoading && <span>Loading...</span>}
     </div>
   );
 };
