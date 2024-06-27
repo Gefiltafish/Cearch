@@ -3,7 +3,7 @@ import { JobSearch } from "./JobSearch";
 
 function App() {
   return (
-    <div className="bg-base-100 w-screen h-screen">
+    <div>
       <h1>Cearch</h1>
       <JobSearch />
     </div>
