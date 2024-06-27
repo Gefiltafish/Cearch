@@ -57,16 +57,26 @@ export const JobSearch = () => {
       <div>
         <form onSubmit={handleSubmit}>
           <label>Job search</label>
-          <div style={{ display: "flex", flexDirection: "column" }}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
             <textarea
+              className="textarea textarea-bordered h-96 w-[36rem] my-4 p-2"
               placeholder="Paste job description"
               style={{ height: "24rem", width: "36rem" }}
               value={jobDescription}
               onChange={handleChange}
             ></textarea>
-            <button type="submit">Generate</button>
+            <button className="btn btn-primary w-1/3" type="submit">
+              Generate
+            </button>
           </div>
         </form>
+        <div className="chat chat-start"></div>
       </div>
       {isLoading && <span>Loading...</span>}
       {techs.length > 0 && (
