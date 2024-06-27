@@ -31,7 +31,7 @@ export const JobSearch = () => {
           </div>
         </form>
       </div>
-      {isLoading && <text>Loading...</text>}
+      {isLoading && <span>Loading...</span>}
       {showResults && (
         <div style={{ height: "24rem", width: "36rem" }}>
           <ul style={{ listStyle: "none" }}>
