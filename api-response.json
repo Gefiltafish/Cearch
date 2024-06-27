@@ -1,0 +1,938 @@
+{
+    "query": {
+        "query": null,
+        "terms": {
+            "javascript": {
+                "operator": "AND"
+            },
+            "ai": {
+                "operator": "AND"
+            },
+            "github": {
+                "operator": "AND"
+            }
+        },
+        "filters": {
+            "companyUser": {
+                "order": 2,
+                "searchType": 3,
+                "count": 32,
+                "disabled": null,
+                "searchTypeText": "People"
+            },
+            "workExperience": {
+                "order": 3,
+                "searchType": 6,
+                "count": 2,
+                "disabled": null,
+                "searchTypeText": "Previous Assignments"
+            }
+        },
+        "resources": [],
+        "teamIds": [],
+        "groupIds": []
+    },
+    "hits": {
+        "total": 34,
+        "maxScore": 3.0,
+        "hits": {
+            "3": [
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Diego",
+                    "lastname": "Delfino",
+                    "name": "Diego Delfino",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/b4/2a/b42a55b1-0c92-499a-8a5f-15f3a96d9696_40_40.png",
+                    "hasImage": true,
+                    "title": null,
+                    "initials": "DD",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "Lund",
+                    "teams": [
+                        {
+                            "id": 6855,
+                            "name": "Sarah Thorén",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 19000,
+                    "seoId": "19000-diego-delfino",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Simon",
+                    "lastname": "Palmberg",
+                    "name": "Simon Palmberg",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/48/55/485543bb-f940-4792-8212-2014635f29cd_40_40.png",
+                    "hasImage": true,
+                    "title": "Systems Engineer",
+                    "initials": "SP",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "Borlänge",
+                    "teams": [
+                        {
+                            "id": 18237,
+                            "name": "Anders Liljekvist",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 23208,
+                    "seoId": "23208-simon-palmberg",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Simon",
+                    "lastname": "Bohlin",
+                    "name": "Simon Bohlin",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/fc/3f/fc3fcdba-c618-4e27-887b-b3e6bb05c1df_40_40.png",
+                    "hasImage": true,
+                    "title": "Systems Engineer & Competence Lead",
+                    "initials": "SB",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "Ljubljana",
+                    "teams": [
+                        {
+                            "id": 11655,
+                            "name": "Nera Božin",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 24106,
+                    "seoId": "24106-simon-bohlin",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Håkan",
+                    "lastname": "Haraldsson",
+                    "name": "Håkan Haraldsson",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/e1/58/e1584e8e-2070-45df-b68d-1b1300fb7416_40_40.jpeg",
+                    "hasImage": true,
+                    "title": "Systems Engineer",
+                    "initials": "HH",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "Lund",
+                    "teams": [
+                        {
+                            "id": 6855,
+                            "name": "Sarah Thorén",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 19097,
+                    "seoId": "19097-hakan-haraldsson",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Johannes",
+                    "lastname": "Borgström",
+                    "name": "Johannes Borgström",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/e5/92/e592f7e8-e400-44dd-ab37-903f3684774a_40_40.png",
+                    "hasImage": true,
+                    "title": "Systems Engineer",
+                    "initials": "JB",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "Stockholm",
+                    "teams": [
+                        {
+                            "id": 10115,
+                            "name": "Klas Enochsson",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 19050,
+                    "seoId": "19050-johannes-borgstrom",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Martin",
+                    "lastname": "Nilsson",
+                    "name": "Martin Nilsson",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/ae/25/ae25ebe3-2f98-46fb-a35d-e59a967be948_40_40.png",
+                    "hasImage": true,
+                    "title": "Systems Engineer",
+                    "initials": "MN",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "Stockholm",
+                    "teams": [
+                        {
+                            "id": 6858,
+                            "name": "Anders Iggsten",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 19053,
+                    "seoId": "19053-martin-nilsson",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Joel",
+                    "lastname": "Sjöström",
+                    "name": "Joel Sjöström",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/b4/0d/b40d2904-8de9-458f-84af-8832afb89729_40_40.png",
+                    "hasImage": true,
+                    "title": "Systems Engineer",
+                    "initials": "JS",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "Stockholm",
+                    "teams": [
+                        {
+                            "id": 6859,
+                            "name": "Christoffer Hydling",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 19007,
+                    "seoId": "19007-joel-sjostrom",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Linus",
+                    "lastname": "Probert",
+                    "name": "Linus Probert",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/04/2c/042c53db-9228-4419-9550-68374f69164c_40_40.png",
+                    "hasImage": true,
+                    "title": "Systems Engineer",
+                    "initials": "LP",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "Lund",
+                    "teams": [
+                        {
+                            "id": 27188,
+                            "name": "Ymer Hjelmqvist",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 34543,
+                    "seoId": "34543-linus-probert",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Alexander",
+                    "lastname": "Danson",
+                    "name": "Alexander Danson",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/ab/d0/abd0c531-eb07-4fab-aaf0-1d94ea5ea145_40_40.png",
+                    "hasImage": true,
+                    "title": "Lead Consultant & Competence Lead Product Management",
+                    "initials": "AD",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "Stockholm",
+                    "teams": [
+                        {
+                            "id": 3035,
+                            "name": "Johan Lundborg",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 37029,
+                    "seoId": "37029-alexander-danson",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Mikael",
+                    "lastname": "Lindholm",
+                    "name": "Mikael Lindholm",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/96/9c/969c9bbe-35e4-45a4-b574-4fb8d27f651e_40_40.png",
+                    "hasImage": true,
+                    "title": "Systems Engineer",
+                    "initials": "ML",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "",
+                    "teams": [
+                        {
+                            "id": 6859,
+                            "name": "Christoffer Hydling",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 30299,
+                    "seoId": "30299-mikael-lindholm",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Pavel",
+                    "lastname": "Maslov",
+                    "name": "Pavel Maslov",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/3f/86/3f86a695-b234-4302-bb55-53eebc4d2388_40_40.png",
+                    "hasImage": true,
+                    "title": "DevOps Engineer",
+                    "initials": "PM",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "",
+                    "teams": [
+                        {
+                            "id": 11655,
+                            "name": "Nera Božin",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 31902,
+                    "seoId": "31902-pavel-maslov",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Kristoffer",
+                    "lastname": "Lind",
+                    "name": "Kristoffer Lind",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/36/76/3676f2fe-8ec8-491c-ad74-56fd44972a1a_40_40.png",
+                    "hasImage": true,
+                    "title": "DevOps Engineer",
+                    "initials": "KL",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "",
+                    "teams": [
+                        {
+                            "id": 22829,
+                            "name": "Fanny Banerup",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 18944,
+                    "seoId": "18944-kristoffer-lind",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Niklas",
+                    "lastname": "Dahlman",
+                    "name": "Niklas Dahlman",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/26/e5/26e547a7-1941-4e82-897d-b75a5d48b621_40_40.png",
+                    "hasImage": true,
+                    "title": "Systems Engineer",
+                    "initials": "ND",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "Lund",
+                    "teams": [
+                        {
+                            "id": 6855,
+                            "name": "Sarah Thorén",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 18977,
+                    "seoId": "18977-niklas-dahlman",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Matthias",
+                    "lastname": "Hultberg",
+                    "name": "Matthias Hultberg",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/16/83/16837f76-99d0-4eb1-adf9-8d7640d51bbe_40_40.jpeg",
+                    "hasImage": true,
+                    "title": "DevOps Engineer",
+                    "initials": "MH",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "Lund",
+                    "teams": [
+                        {
+                            "id": 22829,
+                            "name": "Fanny Banerup",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 18962,
+                    "seoId": "18962-matthias-hultberg",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Kristoffer",
+                    "lastname": "Jälén",
+                    "name": "Kristoffer Jälén",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/82/f9/82f960bb-6686-41e4-8b5c-c65a50f48bf7_40_40.png",
+                    "hasImage": true,
+                    "title": "Lead Consultant & Competence Lead Azure",
+                    "initials": "KJ",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "Lund",
+                    "teams": [
+                        {
+                            "id": 6855,
+                            "name": "Sarah Thorén",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 18943,
+                    "seoId": "18943-kristoffer-jalen",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Federico",
+                    "lastname": "Medina",
+                    "name": "Federico Medina",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/56/02/5602f91c-47f0-4d44-91d7-4f564d599b68_40_40.png",
+                    "hasImage": true,
+                    "title": "Systems Engineer",
+                    "initials": "FM",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "",
+                    "teams": [
+                        {
+                            "id": 6858,
+                            "name": "Anders Iggsten",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 80128,
+                    "seoId": "80128-federico-medina",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Örjan",
+                    "lastname": "Sjöholm",
+                    "name": "Örjan Sjöholm",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/80/1c/801c0c59-95bf-4754-80ab-41062bb963ce_40_40.png",
+                    "hasImage": true,
+                    "title": "Lead Consultant and Area Head Platform",
+                    "initials": "ÖS",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "Stockholm",
+                    "teams": [
+                        {
+                            "id": 3035,
+                            "name": "Johan Lundborg",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 78778,
+                    "seoId": "78778-orjan-sjoholm",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Andreas",
+                    "lastname": "Håkansson",
+                    "name": "Andreas Håkansson",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/bf/0b/bf0b86ea-5b9a-4069-ae2b-6ce9dfb30dd8_40_40.jpeg",
+                    "hasImage": true,
+                    "title": "Lead Consultant & Systems Engineer",
+                    "initials": "AH",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "",
+                    "teams": [
+                        {
+                            "id": 23001,
+                            "name": "Arman Momeni",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 10117,
+                    "seoId": "10117-andreas-hakansson",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Anders",
+                    "lastname": "Ringqvist",
+                    "name": "Anders Ringqvist",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/ee/27/ee274a02-efeb-48e7-a8eb-10c5eff47ca1_40_40.jpeg",
+                    "hasImage": true,
+                    "title": "Lead Consultant & Systems Engineer",
+                    "initials": "AR",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "Lund",
+                    "teams": [
+                        {
+                            "id": 6855,
+                            "name": "Sarah Thorén",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 10138,
+                    "seoId": "10138-anders-ringqvist",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Remi",
+                    "lastname": "Tonning",
+                    "name": "Remi Tonning",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/bc/77/bc771a76-d51f-4b1e-b24c-342a3f3515f7_40_40.jpeg",
+                    "hasImage": true,
+                    "title": "Systems Engineer",
+                    "initials": "RT",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "Borlänge",
+                    "teams": [
+                        {
+                            "id": 18237,
+                            "name": "Anders Liljekvist",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 90274,
+                    "seoId": "90274-remi-tonning",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Abdallah",
+                    "lastname": "Safarini",
+                    "name": "Abdallah Safarini",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/de/ac/deac4dd4-04aa-4e27-a093-a671908a7110_40_40.jpeg",
+                    "hasImage": true,
+                    "title": "Systems Engineer",
+                    "initials": "AS",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "",
+                    "teams": [
+                        {
+                            "id": 22829,
+                            "name": "Fanny Banerup",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 111336,
+                    "seoId": "111336-abdallah-safarini",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Miha",
+                    "lastname": "Hribar",
+                    "name": "Miha Hribar",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/18/20/1820adbd-3fa3-4334-b023-b1d65c3bdc88_40_40.jpeg",
+                    "hasImage": true,
+                    "title": "Lead Consultant",
+                    "initials": "MH",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "",
+                    "teams": [
+                        {
+                            "id": 11655,
+                            "name": "Nera Božin",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 130240,
+                    "seoId": "130240-miha-hribar",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Tobias",
+                    "lastname": "Olsson",
+                    "name": "Tobias Olsson",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/53/d0/53d0f78d-703b-4e32-bfe7-03ed8479e203_40_40.jpeg",
+                    "hasImage": true,
+                    "title": "Developer",
+                    "initials": "TO",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "Stockholm",
+                    "teams": [
+                        {
+                            "id": 10115,
+                            "name": "Klas Enochsson",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 152717,
+                    "seoId": "152717-tobias-olsson",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Daniel",
+                    "lastname": "Abella",
+                    "name": "Daniel Abella",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/ef/73/ef73e1a9-09e1-4b20-968c-a28e6f8849da_40_40.jpeg",
+                    "hasImage": true,
+                    "title": "Developer",
+                    "initials": "DA",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "Lund",
+                    "teams": [
+                        {
+                            "id": 22829,
+                            "name": "Fanny Banerup",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 149717,
+                    "seoId": "149717-daniel-abella",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Fanny",
+                    "lastname": "Banerup",
+                    "name": "Fanny Banerup",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/aa/6a/aa6a0b32-ebb0-4620-94d2-47c66c001c74_40_40.jpeg",
+                    "hasImage": true,
+                    "title": "Consultant Manager",
+                    "initials": "FB",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "Lund",
+                    "teams": [],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 150458,
+                    "seoId": "150458-fanny-banerup",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Lewis",
+                    "lastname": "Clarke",
+                    "name": "Lewis Clarke",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/90/51/9051e394-5049-43d0-a790-96f717b817a0_40_40.jpeg",
+                    "hasImage": true,
+                    "title": "Systems Engineer",
+                    "initials": "LC",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "Borlänge",
+                    "teams": [
+                        {
+                            "id": 18236,
+                            "name": "Thomas Brunström",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 121540,
+                    "seoId": "121540-lewis-clarke",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Simon",
+                    "lastname": "Tenggren",
+                    "name": "Simon Tenggren",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/fa/35/fa35ca3c-effc-40fc-8743-390aa1993886_40_40.jpeg",
+                    "hasImage": true,
+                    "title": "Systems Engineer",
+                    "initials": "ST",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "",
+                    "teams": [
+                        {
+                            "id": 6855,
+                            "name": "Sarah Thorén",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 110525,
+                    "seoId": "110525-simon-tenggren",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Harry",
+                    "lastname": "Liu",
+                    "name": "Harry Liu",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/default/user-unknown_40_40.png",
+                    "hasImage": false,
+                    "title": "Developer",
+                    "initials": "HL",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "Lund",
+                    "teams": [
+                        {
+                            "id": 22829,
+                            "name": "Fanny Banerup",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 187457,
+                    "seoId": "187457-harry-liu",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Ivan",
+                    "lastname": "Tsud",
+                    "name": "Ivan Tsud",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/fb/58/fb58dc0d-2888-4960-abc9-db6f8289c5cd_40_40.jpeg",
+                    "hasImage": true,
+                    "title": "Systems Engineer",
+                    "initials": "IT",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "",
+                    "teams": [
+                        {
+                            "id": 10115,
+                            "name": "Klas Enochsson",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 114898,
+                    "seoId": "114898-ivan-tsud",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Edvin",
+                    "lastname": "Trönnberg",
+                    "name": "Edvin Trönnberg",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/fa/3e/fa3e0945-09fc-42f0-811e-ce6f8e5db44f_40_40.jpeg",
+                    "hasImage": true,
+                    "title": "Developer",
+                    "initials": "ET",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "",
+                    "teams": [
+                        {
+                            "id": 18236,
+                            "name": "Thomas Brunström",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 110715,
+                    "seoId": "110715-edvin-tronnberg",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Tomaž",
+                    "lastname": "Čufer",
+                    "name": "Tomaž Čufer",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/default/user-unknown_40_40.png",
+                    "hasImage": false,
+                    "title": "Data Engineer",
+                    "initials": "TČ",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "Ljubljana",
+                    "teams": [
+                        {
+                            "id": 11655,
+                            "name": "Nera Božin",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 112212,
+                    "seoId": "112212-tomaz-cufer",
+                    "score": 3.0
+                },
+                {
+                    "userId": "00000000-0000-0000-0000-000000000000",
+                    "firstname": "Anatolii",
+                    "lastname": "Avramenko",
+                    "name": "Anatolii Avramenko",
+                    "imageUrl": "https://cdn1.cinodestatic.net/_images/175/d5/84/d58445c9-e118-4a79-9c88-f8e78e24ab5f_40_40.jpeg",
+                    "hasImage": true,
+                    "title": "Systems Engineer",
+                    "initials": "AA",
+                    "status": 3,
+                    "mobility": null,
+                    "location": "",
+                    "teams": [
+                        {
+                            "id": 27188,
+                            "name": "Ymer Hjelmqvist",
+                            "seoId": null
+                        }
+                    ],
+                    "groups": [],
+                    "companyUserType": 0,
+                    "id": 118908,
+                    "seoId": "118908-anatolii-avramenko",
+                    "score": 3.0
+                }
+            ],
+            "6": [
+                {
+                    "startDate": "2024-04-01T00:00:00",
+                    "endDate": null,
+                    "isCurrent": true,
+                    "experienceLength": 2.7908957957140847,
+                    "hasReference": false,
+                    "translations": [
+                        {
+                            "employer": "Self",
+                            "title": "Lead Frontend",
+                            "profileId": 172227,
+                            "profileTranslationId": 205118,
+                            "lang": "gb"
+                        }
+                    ],
+                    "profileBlockItemId": 768796,
+                    "profileId": 172227,
+                    "owner": {
+                        "userId": "00000000-0000-0000-0000-000000000000",
+                        "firstname": "Federico",
+                        "lastname": "Medina",
+                        "name": "Federico Medina",
+                        "imageUrl": "https://cdn1.cinodestatic.net/_images/175/56/02/5602f91c-47f0-4d44-91d7-4f564d599b68_40_40.png",
+                        "hasImage": true,
+                        "title": "Systems Engineer",
+                        "initials": "FM",
+                        "status": 3,
+                        "mobility": null,
+                        "location": "",
+                        "teams": [
+                            {
+                                "id": 6858,
+                                "name": "Anders Iggsten",
+                                "seoId": null
+                            }
+                        ],
+                        "groups": [],
+                        "companyUserType": 0,
+                        "id": 80128,
+                        "seoId": "80128-federico-medina"
+                    },
+                    "id": -823332625,
+                    "name": null,
+                    "seoId": null,
+                    "score": 3.0
+                },
+                {
+                    "startDate": "2015-07-01T00:00:00",
+                    "endDate": null,
+                    "isCurrent": true,
+                    "experienceLength": 107.82579842895122,
+                    "hasReference": false,
+                    "translations": [
+                        {
+                            "employer": "IKEA",
+                            "title": "Senior Developer / Tech Lead",
+                            "profileId": 57914,
+                            "profileTranslationId": 74548,
+                            "lang": "gb"
+                        },
+                        {
+                            "employer": "IKEA",
+                            "title": "Senior Developer / Tech Lead",
+                            "profileId": 57914,
+                            "profileTranslationId": 74549,
+                            "lang": "se"
+                        }
+                    ],
+                    "profileBlockItemId": 468614,
+                    "profileId": 57914,
+                    "owner": {
+                        "userId": "00000000-0000-0000-0000-000000000000",
+                        "firstname": "Andreas",
+                        "lastname": "Håkansson",
+                        "name": "Andreas Håkansson",
+                        "imageUrl": "https://cdn1.cinodestatic.net/_images/175/bf/0b/bf0b86ea-5b9a-4069-ae2b-6ce9dfb30dd8_40_40.jpeg",
+                        "hasImage": true,
+                        "title": "Lead Consultant & Systems Engineer",
+                        "initials": "AH",
+                        "status": 3,
+                        "mobility": null,
+                        "location": "",
+                        "teams": [
+                            {
+                                "id": 23001,
+                                "name": "Arman Momeni",
+                                "seoId": null
+                            }
+                        ],
+                        "groups": [],
+                        "companyUserType": 0,
+                        "id": 10117,
+                        "seoId": "10117-andreas-hakansson"
+                    },
+                    "id": 281389076,
+                    "name": null,
+                    "seoId": null,
+                    "score": 3.0
+                }
+            ]
+        }
+    }
+}
