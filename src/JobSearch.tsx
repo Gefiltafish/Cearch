@@ -54,48 +54,54 @@ export const JobSearch = () => {
   };
   return (
     <div>
-      <div>
-        <form onSubmit={handleSubmit}>
-          <label>Job search</label>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-            }}
-          >
-            <textarea
-              className="textarea textarea-bordered h-96 w-[36rem] my-4 p-2"
-              placeholder="Paste job description"
-              style={{ height: "24rem", width: "36rem" }}
-              value={jobDescription}
-              onChange={handleChange}
-            ></textarea>
-            <button className="btn btn-primary w-1/3" type="submit">
-              Generate
+      <article className="prose">
+        <div>
+          <form onSubmit={handleSubmit}>
+            <label>Job search</label>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+              }}
+            >
+              <textarea
+                className="textarea textarea-bordered h-96 w-[36rem] my-4 p-2"
+                placeholder="Paste job description"
+                style={{ height: "24rem", width: "36rem" }}
+                value={jobDescription}
+                onChange={handleChange}
+              ></textarea>
+              <button className="btn btn-primary w-1/3" type="submit">
+                Generate
+              </button>
+            </div>
+          </form>
+          <div className="chat chat-start"></div>
+        </div>
+        {isLoading && <span>Loading...</span>}
+        {techs.length > 0 && (
+          <div style={{ height: "24rem", width: "36rem" }}>
+            <ul style={{ listStyle: "none" }}>
+              {techs.map((tech) => (
+                <li key={tech}>
+                  <label>{tech}</label>
+                  <input type="checkbox" defaultChecked></input>
+                </li>
+              ))}
+              {/* Example techs to be displayed from the job description  */}
+            </ul>
+            <button
+              className="btn btn-primary w-1/3"
+              type="button"
+              onClick={handleGoPress}
+            >
+              Find consultants
             </button>
           </div>
-        </form>
-        <div className="chat chat-start"></div>
-      </div>
-      {isLoading && <span>Loading...</span>}
-      {techs.length > 0 && (
-        <div style={{ height: "24rem", width: "36rem" }}>
-          <ul style={{ listStyle: "none" }}>
-            {techs.map((tech) => (
-              <li key={tech}>
-                <label>{tech}</label>
-                <input type="checkbox" defaultChecked></input>
-              </li>
-            ))}
-            {/* Example techs to be displayed from the job description  */}
-          </ul>
-          <button type="button" onClick={handleGoPress}>
-            Find consultants
-          </button>
-        </div>
-      )}
-      {isLoading && <span>Loading...</span>}
+        )}
+        {isLoading && <span>Loading...</span>}
+      </article>
     </div>
   );
 };
